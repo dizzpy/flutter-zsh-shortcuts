@@ -1,31 +1,37 @@
 # flutter-zsh-shortcuts 🐦⚡
 
-Zsh plugin with clean aliases for Flutter commands to make your CLI workflow 10x faster 🚀
+A blazing-fast ⚡️ Zsh plugin with clean aliases for common Flutter commands. Make your CLI workflow smoother than a hot reload.
+
+---
 
 ## ⚙️ Installation
 
-Clone into your oh-my-zsh custom plugin folder:
+### Manual (Oh My Zsh)
+
+Clone the plugin into your custom plugin folder:
 
 ```bash
 git clone https://github.com/dizzpy/flutter-zsh-shortcuts ~/.oh-my-zsh/custom/plugins/flutter-zsh-shortcuts
 ```
 
-Edit your `~/.zshrc` file and add the plugin:
+Edit your `~/.zshrc` and add `flutter-zsh-shortcuts` to the `plugins` array:
 
 ```zsh
-plugins=(... flutter-zsh-shortcuts)
+plugins=(git flutter-zsh-shortcuts)
 ```
 
-Reload Zsh:
+Then apply the changes:
 
 ```bash
 source ~/.zshrc
 ```
 
-## 🔤 Shortcuts
+---
 
-| Alias   | Command                       |
-| ------- | ----------------------------- |
+## 🔤 Available Shortcuts
+
+| Alias   | Full Command                  |
+|--------:|-------------------------------|
 | `f`     | `flutter`                     |
 | `fc`    | `flutter clean`               |
 | `fpg`   | `flutter pub get`             |
@@ -42,6 +48,13 @@ source ~/.zshrc
 | `fup`   | `flutter upgrade`             |
 | `fpl`   | `flutter pub outdated`        |
 
+---
+
 ## 📄 License
 
 MIT © [Dizzpy](https://github.com/dizzpy)
+
+---
+
+> ⭐ Star this repo if it saved your keystrokes 💻  
+> 👉 [github.com/dizzpy/flutter-zsh-shortcuts](https://github.com/dizzpy/flutter-zsh-shortcuts)
